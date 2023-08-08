@@ -45,6 +45,12 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Running the app and posgress database via docker in dev mode
+
+```bash
+$ docker-compose up
+```
+
 ## Test
 
 ```bash
