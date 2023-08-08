@@ -15,7 +15,7 @@ services:
     ports:
       - ${POSTGRES_EXTERNAL_PORT:-5432}:5432
     environment:
-      POSTGRES_DB: dec-2022
+      POSTGRES_DB: autodeal
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
     volumes:
